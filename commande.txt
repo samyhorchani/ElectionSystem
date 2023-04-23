@@ -1,0 +1,5 @@
+plot "./Tests/Analyse/analyseMP_naive.txt" using 1:2 title "ModPow Naive" with lines
+replot "./Tests/Analyse/analyseMP.txt" using 1:2 title "ModPow" with lines
+set term postscript portrait
+set output "analyseMP.ps"
+set size 0.7, 0.7
